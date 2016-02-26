@@ -1,0 +1,66 @@
+body{
+background-image: url(../IMG/back.jpg);
+
+}
+
+h1{
+
+font-weight: bold;
+}
+
+
+header{
+font-family:impact;
+text-align:center;
+
+
+}
+
+aside{
+margin-left:15%;
+float:left;
+width:15%;
+text-align:center;
+
+}
+
+ul{
+cursor: pointer;
+margin:5px;
+background-color: rgba(0,0,0,0.5);
+color:white;
+font-size:1.5em;
+
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+
+a:hover{
+color: white;
+font-size:2em;
+}
+
+section{
+background-color: rgba(255,255,255,0.5);
+width:55%;
+float:left;
+height:200px;
+
+}
+img{
+height:140px;
+width:175px;
+
+}
+
+footer{
+color:white;
+clear:both;
+font-size:1.5em;
+margin-left:15%;
+margin-top:38%;
+
+}

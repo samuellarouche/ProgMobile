@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="Script 1.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/CSSIdentification.css"/>
+</head>
+
+<body>
+
+<header>
+<h1>
+inscription au forum
+<img src="IMG/gearLogo.png" alt="" />
+</h1>
+</header>
+
+<aside>
+<ul><a href="file:///C:/Users/Utilisateur/Documents/ExamenFinal_SamuelLarouche/index.html">Accueil</a></ul>
+<ul><a href="file:///C:/Users/Utilisateur/Documents/ExamenFinal_SamuelLarouche/produit.html">Produit</a></ul>
+<ul><a href="file:///C:/Users/Utilisateur/Documents/ExamenFinal_SamuelLarouche/image.html">Images</a></ul>
+<ul><a href="file:///C:/Users/Utilisateur/Documents/ExamenFinal_SamuelLarouche/formulaire.html">Inscription</a></ul>
+</aside>
+
+<section>
+<fieldset>
+<form id="form" method="post" action="inscription.php" onsubmit= "return envoyerTout">
+<label > Nom d'utilisateur</label ><input type =" text "  value=" " name ="nomUtilisateur" onblur="verifNomUtilisateur(this)" id="nomUtili"/>
+<label > Mot de passe </label ><input type="password" name="motdepasse" onblur="verifMotDePasse(this)" id="password" />
+<label > Prénom  </label ><input type =" text " value=" " name ="Prenom" onblur="verifPrenom(this)" />
+<label > Nom  </label ><input type =" text "  value=" " name ="nom" onblur="verifNom(this)" />
+<label > Email  </label ><input type="email"  value=" " name="adressemail" onblur="verifMail(this)" />
+</form>
+
+</fieldset>
+
+<fieldset class="fieldset1">
+<input type="submit" value="Valider">
+</fieldset>
+</section>
+
+<footer>
+<p>
+Vince Inc. Tous droit reservé
+</p>
+</footer>
+
+</body>
+
+</html>
